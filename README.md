@@ -1,1 +1,1 @@
-<font face="century gothic">0805a</font>
+<font face="comic sans ms">0805a</font>
