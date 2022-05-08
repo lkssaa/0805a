@@ -1,5 +1,5 @@
 0805a
-<ul>фвс
+<ul type="disc">фвс
   <ul>
   <li>ddd
   <li>sss
