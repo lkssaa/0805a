@@ -1,0 +1,64 @@
+<html>
+<style>
+    body{
+        background-color: gray;
+    }
+    .center{
+    margin-top:30px;
+    margin-left: 30%;
+    margin-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    width: 40%;
+    text-align: center;
+    background-color:orange;
+    transition: .2s ease;
+    border-radius: 10px;
+}
+.textbox2 {
+   width:200px;
+   border: 2px solid black;
+   border-radius: 10px;
+   font: monospace small-caps 24px;
+   background-color: orange;
+   padding: 3px 6px 3px 6px;
+   transition: .2s ease;
+   margin-right: 110px;
+}
+.textbox2:focus{
+    transition: .2s ease;
+    width:390px;
+    margin-right: 10px;
+}
+.button{
+padding:5px;
+background-color: orange;
+border: 2px solid black;
+transition: .2s ease;
+border-radius: 10px;
+}
+.button:hover{
+background-color: gray;
+transition: .2s ease;
+border-radius: 7px;
+padding-right:9px;
+padding-left:9px;
+
+}
+.button:focus{
+    background-color: black;
+    transition: .1s ease;
+    padding:0px;
+}
+</style>
+<head>
+<title>слово</title>
+</head>
+<body>
+<div class="center">
+<form action="/syns">
+<input class=textbox2 type="text" name="wrd"><input type="submit" value="синонимы" class="button">
+</form>
+</div>
+</body>
+</html>

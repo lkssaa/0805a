@@ -1,0 +1,84 @@
+<html>
+<style>
+    body{
+    background-color: gray;
+}
+.synbox{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    margin-left: 40%;
+    margin-right: 40%;
+    width: 20%;
+    background-color:orange;
+    border-radius: 10px;
+    transition: .2s ease;
+}
+.synbox:hover{
+    background-color: wheat;
+    margin-left: 35%;
+    margin-right: 35%;
+    width:30%;
+    transition: .2s ease;
+}
+.title{
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 20px;
+    width: 50%;
+    text-align: center;
+    background-color:yellow;
+    border-radius: 50px;
+    transition: .2s ease;
+}
+.title:hover{
+    margin-left: 35%;
+    margin-right: 35%;
+    width: 30%;
+    background-color: rgb(255, 229, 219);
+    border-radius: 15px;
+    transition: .2s ease;
+}
+.center{
+    background-color:orange;
+    
+    transition: .2s ease;
+}
+.center:hover{
+    border-radius: 7.5s;
+    transition: .2s ease;
+}
+.curword{
+    font: 48px monospace;
+    text-decoration: none;
+    color:teal;
+    transition: .2s ease;
+}
+
+.syn{
+    color: black;
+    font: 24px monospace;
+    text-align:center;
+}
+
+</style>
+<head>
+
+<title>синонимы</title>
+</head>
+<body>
+
+<div class="title">
+    <a class="curword" href="/" title="выбрать другое слово">{{word}}</a>
+</div>
+
+<div class="synbox">
+    {% autoescape off %}
+    <p class="syn">{{sn1}}</p>
+    {% endautoescape %}
+</div>
+
+
+
+</body>
+</html>
