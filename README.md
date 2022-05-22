@@ -1,9 +1,8 @@
 0805a
-<ul type="disc">фвс
+<ul type="disc">что делает сайт
   <ul>
-  <li>ddd
-  <li>sss
-  <li>aaa
+  <li>показывает синонимы
+  <li>и все
  </ul>
  </ul>
   
