@@ -45,9 +45,13 @@ def synonyms():
         allA = open('refs.txt', 'r')
         allsyn=''
         for line in allA:
+            l=0
             for a in line:
                 if isRus(a):
                     allsyn+=a
+                if a==" " and l!=0 and isRus(line[l-1]) and isRus(line[l+1]):
+                    allsyn+=" "
+                l+=1
             allsyn+='<br>'
         allSyn = open('syn.txt', 'w')
         allSyn.write(allsyn)
